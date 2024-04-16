@@ -20,17 +20,24 @@ export default function Page() {
 <div className={styles.shape} />
           <p className={` ${lusitana.className} antialiased text-xl text-gray-800 md:text-3xl md:leading-normal `} 
           >
-            <strong>Welcome to Acme.</strong> This is the example for the{' '}
+            <strong>Welcome to MeetAgenda.</strong> The platform that helps you plan you meetings better
+            {' '}
             <a href="https://nextjs.org/learn/" className="text-blue-500">
-              Next.js Learn Course
+              Meetings with purpose
             </a>
-            , brought to you by Vercel.
+            , brought to you by Hola Tech.
           </p>
           <Link
             href="/login"
             className="flex items-center gap-5 self-start rounded-lg bg-blue-500 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
           >
             <span>Log in</span> <ArrowRightIcon className="w-5 md:w-6" />
+          </Link>
+          <Link
+            href="/dashboard"
+            className="flex items-center gap-5 self-start rounded-lg bg-indigo-700 px-6 py-3 text-sm font-medium text-white transition-colors hover:bg-blue-400 md:text-base"
+          >
+            <span>Dash Temp</span> <ArrowRightIcon className="w-5 md:w-6" />
           </Link>
         </div>
         <div className="flex items-center justify-center p-6 md:w-3/5 md:px-28 md:py-12">
